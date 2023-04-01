@@ -11,7 +11,6 @@ class Plane:
     def distance(self):
         print("Distance")
 
-
 plane1 = Plane()
 print(plane1.distance())
 
