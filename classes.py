@@ -1,7 +1,6 @@
 # Constructors
 
 class Plane:
-
     def __init__(self):
         self.color = "White"
         self.price = 1000000
@@ -11,12 +10,13 @@ class Plane:
     def distance(self):
         print("Distance")
 
+
 plane1 = Plane()
 print(plane1.distance())
 
 
 class Person:
-  
+
     def __init__(self, name, sex, profession, nationality):
         # data members (instance variables)
         self.name = name
@@ -32,11 +32,17 @@ class Person:
     # Behavior (instance methods)
     def work(self):
         print(self.name, 'working as a', self.profession)
-    
+
     def country(self):
         return self.nationality
-    
+
+
 person = Person("Ubri", "Male", "Hacker", "Russian")
 print(person.name)
 print("Nationality: ", person.country())
+
+
+MENU = {"soda", "fries", "burger", "shake", "cookie", "chicken strips"}
+
+
 
